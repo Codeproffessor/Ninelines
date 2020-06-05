@@ -1,0 +1,15 @@
+.personal-items::before, .speed{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.personal-items::before{
+	background-position: -34px -134px ;
+	width: 184px;
+	height: 166px;
+}
+
+.speed{
+	background-position: 0 0;
+	width: 254px;
+	height: 133px;
+}

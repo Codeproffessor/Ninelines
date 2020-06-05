@@ -1,0 +1,200 @@
+.page {
+    min-width: 700px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 22px;
+    color: #666;
+    text-transform: uppercase;
+    background-color: #F0F0F0; }
+  
+  .wrapper {
+    margin: 10px auto;
+    width: 660px; }
+  
+  .partition {
+    margin-bottom: 2px;
+    padding: 0 20px;
+    min-height: 250px;
+    background: url("../img/wrapper-bg.jpg") repeat repeat; }
+  
+  /*-----------------------personal--------------------*/
+  .personal {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase; }
+  
+  .personal-item {
+    text-transform: none; }
+  
+  .personal::after {
+    content: "";
+    display: table;
+    clear: both; }
+  
+  .personal-photo {
+    float: left;
+    width: 140px;
+    margin-top: 30px; }
+  
+  .personal-photo img {
+    width: 140px;
+    height: auto; }
+  
+  .personal-items {
+    position: relative;
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 460px;
+    list-style: none; }
+  
+  .personal-items::before {
+    position: absolute;
+    top: 78px;
+    right: -16px;
+    content: "";
+    height: 166px;
+    width: 184px; }
+  
+  .personal-item {
+    border-bottom: 2px solid #333;
+    padding-bottom: 4px;
+    padding-top: 28px; }
+  
+  /*-----------------------skills--------------------*/
+  .skills {
+    padding-top: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase; }
+  
+  .skills-title {
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010101; }
+  
+  .skills-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none; }
+  
+  .skills-list li {
+    display: inline-block;
+    margin-bottom: 36px;
+    margin-right: 20px;
+    width: 140px;
+    height: 22px;
+    font-size: 12px; }
+  
+  .skills-list li:nth-child(4n) {
+    margin-right: 0; }
+  
+  .skills-checkbox {
+    display: none; }
+  
+  .skills-label {
+    position: relative;
+    display: inline-block;
+    padding-left: 27px;
+    height: 22px;
+    cursor: pointer; }
+  
+  .skills-label:hover {
+    color: #010101; }
+  
+  .skills-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    background-color: #EEE;
+    border-radius: 5px; }
+  
+  .skills-checkbox:checked + .skills-indicator {
+    background-color: #0093D7; }
+  
+  .skills-checkbox:checked + .skills-indicator::before {
+    position: absolute;
+    top: 8px;
+    right: 2px;
+    content: "";
+    width: 12px;
+    height: 2px;
+    background-color: #FFF; }
+  
+  .skills-checkbox:checked + .skills-indicator::after {
+    position: absolute;
+    top: 11px;
+    left: 2px;
+    content: "";
+    width: 6px;
+    height: 2px;
+    background-color: #FFF; }
+  
+  .skills-checkbox:checked + .skills-indicator::before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  
+  .skills-checkbox:checked + .skills-indicator::after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  
+  .skills-field {
+    margin: 32px 0 0;
+    padding: 0;
+    border: none; }
+  
+  /*-----------------------javascript--------------------*/
+  .javascript {
+    padding-top: 53px;
+    padding-bottom: 54px;
+    min-height: 130px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase; }
+  
+  .javascript-speed {
+    float: left;
+    margin-right: 20px;
+    width: 300px; }
+  
+  .javascript-percent {
+    float: left;
+    width: 300px; }
+  
+  .javascript-field {
+    margin: 0 0 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: none;
+    color: #010101; }
+  
+  .javascript-value {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #0093d7; }
+  
+  .javascript::after {
+    display: table;
+    content: "";
+    clear: both; }
+  
+  .javascript-live {
+    display: none; }
+  
